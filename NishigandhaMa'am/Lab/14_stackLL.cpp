@@ -45,7 +45,7 @@ void pop(Node*& head) {
 
     Node* temp = head;
 
-    if (temp->next == nullptr) { // Only one element
+    if (temp->next == nullptr) { 
         cout << "Popped value: " << temp->data << endl;
         delete temp;
         head = nullptr;

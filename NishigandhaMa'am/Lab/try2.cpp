@@ -1,8 +1,1 @@
-#include<iostream>
-using namespace std;
-
-int main()
-{
-    cout<<"Hello World!";
-    return 0;
-}
+//WAP to evaluate postfix expression

@@ -4,8 +4,9 @@ using namespace std;
 
 class selectionSort
 {
-    public:
+    private:
     vector<int> arr;
+    public:
     void input(int size);
     void sort(int size);
     void display(int size);
